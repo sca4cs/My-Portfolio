@@ -1,0 +1,56 @@
+.main-content a {
+    color: 	#9e9e9e;
+    text-decoration: none;
+}
+
+.main-content .landing {
+    height: 100vh;
+    background-image: url('../assets/beautiful-dark-evening-29435.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.sticky-nav {
+    height: 50px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.sticky-nav a {
+    border: 1px solid blue;
+    padding: 0;
+    margin: 0;
+}
+
+.main-content .paper {
+    width: 70%;
+    margin: 50px auto;
+    padding: 0 50px;
+}
+
+.main-content .paper h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.main-content .paper p {
+    padding-bottom: 30px;
+}
+
+.main-content .landing .intro {
+    color: white; 
+    margin: auto;
+    text-align: center;
+}
+
+.landing .intro .title {
+    font-size: 5rem; 
+}
+
+.landing .intro .subtitle {
+    font-size: 2rem; 
+}

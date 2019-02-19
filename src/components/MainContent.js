@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import StickyNav from "./StickyNav";
 import Landing from "./Landing";
 import About from "./About";
 import Projects from "./Projects";
@@ -9,9 +8,6 @@ import Divider from '@material-ui/core/Divider';
 import './main.css';
 
 class MainContent extends Component {
-    constructor() {
-        super();
-    }
 
     render() {
         return (
@@ -22,7 +18,6 @@ class MainContent extends Component {
                     <Divider />
                     <Projects/>
                 </Paper>
-                <StickyNav/>
             </div>
         )
     }

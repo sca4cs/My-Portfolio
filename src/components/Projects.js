@@ -6,7 +6,7 @@ const Projects = () => {
         <div className="projects">
             <h3>Shannon's Projects</h3>
             <h4>V-Beloved</h4>
-            <p>V-Beloved is an all-incluisve wedding planning site where you can create custom invitations, upload guest lists, and keep track of RSVPs.</p>
+            <p>V-Beloved is an all-inclusive wedding planning site where you can create custom invitations, upload guest lists, and keep track of RSVPs.</p>
             <a href="https://www.vbeloved.com/" target="_blank" rel="noopener noreferrer">Visit Site</a>
             <span>&#160;&#8226;&#160;</span>
             <a href="https://github.com/Lambda-School-Labs/labs9-wedding-site" target="_blank" rel="noopener noreferrer">Project Repository</a>

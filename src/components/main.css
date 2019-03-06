@@ -12,6 +12,11 @@
     background-attachment: fixed;
 }
 
+.landing .fa-arrow-circle-down {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 
 
 

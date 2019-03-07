@@ -13,7 +13,7 @@
 }
 
 .landing .fa-arrow-circle-down {
-    margin-top: 10px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -94,4 +94,45 @@
     background:rgba(255,255,255,0.2);
     margin: 0 10px;
     color: whitesmoke;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .main-content .landing .intro {
+        margin-top: 150px;
+    }
+
+    .main-content .paper {
+        width: 80%;
+    }
+
+}
+
+
+
+
+@media (max-width: 400px) {
+
+    .main-content .landing .intro {
+        margin-top: 100px;
+    }
+
+    .landing .intro .subtitle {
+        font-size: 1.8rem;
+    }
+
+    .portfolio-pic {
+        display: block;
+        margin: 0 auto 20px;
+        float: none;
+    }
+
+    .main-content .paper {
+        width: 90%;
+        margin: 100px auto;
+        padding: 50px 50px;
+    }
+    
 }

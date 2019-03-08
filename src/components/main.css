@@ -10,11 +10,19 @@
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+
+    
 }
 
 .landing .fa-arrow-circle-down {
     margin-top: 20px;
     cursor: pointer;
+}
+
+canvas {
+    position: absolute;
+    z-index: 1;
+    padding-bottom: 70px;
 }
 
 
@@ -61,6 +69,8 @@
 }
 
 .main-content .landing .intro {
+    position: relative;
+    z-index: 2;
     color: white; 
     margin-top: 200px;
     text-align: center;
@@ -83,6 +93,8 @@
     justify-content: flex-end;
     padding-right: 10px;
     padding-top: 20px;
+    position: relative;
+    z-index: 2;
 }
 
 .socials a {

@@ -1,9 +1,11 @@
 import React from "react";
 import Socials from "./Contact";
+import ParticleComponent from "./Particle.js";
 
 const Landing = (props) => {
     return (
         <div className="landing">
+            <ParticleComponent />
             <Socials/>
             <div className="intro">
             <h1 className="title">Shannon Atkinson</h1>
